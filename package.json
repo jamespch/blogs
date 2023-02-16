@@ -1,0 +1,23 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "description": "my blogs",
+  "main": "index.js",
+  "repository": "https://github.com/jamespch/blogs.git",
+  "author": "chengpan <chengpan@bsg2021>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "test": "echo “Error: no test specified” && exit 1",
+    "deploy": "bash deploy.sh"
+  },
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-extract-code": "^1.0.4",
+    "@vuepress-reco/vuepress-plugin-pagation": "^1.6.13",
+    "vuepress": "^1.9.8",
+    "vuepress-plugin-cursor-effects": "^1.1.6",
+    "vuepress-plugin-sakura": "^1.2.1",
+    "vuepress-theme-reco": "^1.6.16"
+  }
+}

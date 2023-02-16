@@ -1,0 +1,8 @@
+.idea
+.git
+.temp
+.vscode
+yarn-error.log
+dist
+node_modules
+node_modules/
